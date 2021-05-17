@@ -4,7 +4,7 @@ import time
 
 def execute(commands: list) -> int:
 	my_token: str = '' # Your personal or bot token
-	channel_id: str = '' # Channgel to post into
+	channel_id: str = '' # Channel to post into
 	bot_id: str = '' # UnbelievaBoat
 
 	# Login
