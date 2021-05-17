@@ -8,8 +8,8 @@
 ## Automation
 
 Use cron:
-```
-0 * * * * python3 work.py # Every hour
-0 */4 * * * python3 crime.py # Every four hours
-0 20 * * * python3 /home/sebastian/Dev/Python/Slave/rob.py # Every day at 20:00
+```bash
+0 * * * *	python3 work.py		# Every hour
+0 */4 * * *	python3 crime.py	# Every four hours
+0 20 * * *	python3 rob.py		# Every day at 20:00
 ```
