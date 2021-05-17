@@ -7,7 +7,7 @@ def main() -> int:
 		'y'
 	]
 
-	commands = [ f'rob <@!{user}>' for user in users ]
+	commands: list = [ f'rob <@!{user}>' for user in users ]
 	commands.append('deposit all')
 
 	return execute(commands)
